@@ -280,7 +280,7 @@ print("🔄 Загрузка данных...")
 load_data()
 
 # Добавление владельцев
-OWNER_IDS = [1521791703]
+OWNER_IDS = [1034932955]
 for owner_id in OWNER_IDS:
     if owner_id not in owners:
         owners.add(owner_id)
@@ -505,3 +505,4 @@ def get_welcome_text():
 <b>Выберите действие:</b>
 
     """
+
